@@ -3,10 +3,23 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Calculator" Height="300" Width="372.5">
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition/>
-        </Grid.RowDefinitions>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="50" Margin="10,65,0,0" Stroke="Black" VerticalAlignment="Top" Width="345"/>
+        <Grid Margin="10,65,10,158" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0*"/>
+                <ColumnDefinition Width="43*"/>
+                <ColumnDefinition Width="43*"/>
+                <ColumnDefinition Width="43*"/>
+                <ColumnDefinition Width="43*"/>
+                <ColumnDefinition Width="43*"/>
+                <ColumnDefinition Width="43*"/>
+                <ColumnDefinition Width="43*"/>
+                <ColumnDefinition Width="43*"/>
+            </Grid.ColumnDefinitions>
+            <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="50" Margin="0,0,-1,0" Stroke="Black" VerticalAlignment="Top" Width="345" Grid.ColumnSpan="9">
+
+            </Rectangle>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="0000" VerticalAlignment="Top" Height="27" Width="38" Grid.Column="1"/>
+        </Grid>
         <Button Content="0" HorizontalAlignment="Left" Margin="185,245,0,0" VerticalAlignment="Top" Width="65" Height="20"/>
         <Button Content="=" HorizontalAlignment="Left" Margin="325,220,0,0" VerticalAlignment="Top" Width="30" Height="45"/>
         <Button Content="%" HorizontalAlignment="Left" Margin="325,170,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
