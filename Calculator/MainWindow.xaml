@@ -3,81 +3,89 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Calculator" Height="300" Width="372.5">
     <Grid>
-        <Grid Margin="10,65,10,158" >
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="0*"/>
-                <ColumnDefinition Width="43*"/>
-                <ColumnDefinition Width="43*"/>
-                <ColumnDefinition Width="43*"/>
-                <ColumnDefinition Width="43*"/>
-                <ColumnDefinition Width="43*"/>
-                <ColumnDefinition Width="43*"/>
-                <ColumnDefinition Width="43*"/>
-                <ColumnDefinition Width="43*"/>
-            </Grid.ColumnDefinitions>
-            <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="50" Margin="0,0,-1,0" Stroke="Black" VerticalAlignment="Top" Width="345" Grid.ColumnSpan="9">
-
-            </Rectangle>
-            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="0000" VerticalAlignment="Top" Height="27" Width="38" Grid.Column="1"/>
-        </Grid>
-        <Button Content="0" HorizontalAlignment="Left" Margin="185,245,0,0" VerticalAlignment="Top" Width="65" Height="20"/>
-        <Button Content="=" HorizontalAlignment="Left" Margin="325,220,0,0" VerticalAlignment="Top" Width="30" Height="45"/>
-        <Button Content="%" HorizontalAlignment="Left" Margin="325,170,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <Button Content="M-" HorizontalAlignment="Left" Margin="325,120,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <Button Content="1/X" HorizontalAlignment="Left" Margin="325,197,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <Button Content="[sqrt]" HorizontalAlignment="Left" Margin="325,145,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <Button Content="-" HorizontalAlignment="Left" Margin="290,220,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <Button Content="*" HorizontalAlignment="Left" Margin="290,195,0,0" VerticalAlignment="Top" Width="30" RenderTransformOrigin="0.278,-1.429" Height="20"/>
-        <Button Content="/" HorizontalAlignment="Left" Margin="290,170,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <Button Content="[+-]" HorizontalAlignment="Left" Margin="290,145,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <Button Content="M+" HorizontalAlignment="Left" Margin="290,120,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <Button Content="MS" HorizontalAlignment="Left" Margin="255,120,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <Button Content="C" HorizontalAlignment="Left" Margin="255,145,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <Button Content="9" HorizontalAlignment="Left" Margin="255,170,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <Button Content="6" HorizontalAlignment="Left" Margin="255,195,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <Button Content="3" HorizontalAlignment="Left" Margin="255,220,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <Button Content="MR" HorizontalAlignment="Left" Margin="220,120,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <Button Content="CE" HorizontalAlignment="Left" Margin="220,145,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <Button Content="8" HorizontalAlignment="Left" Margin="220,170,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <Button Content="5" HorizontalAlignment="Left" Margin="220,195,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <Button Content="2" HorizontalAlignment="Left" Margin="220,220,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <Button Content="MC" HorizontalAlignment="Left" Margin="185,120,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="185,145,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <Button Content="7" HorizontalAlignment="Left" Margin="185,170,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <Button Content="4" HorizontalAlignment="Left" Margin="185,195,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <Button Content="1" HorizontalAlignment="Left" Margin="185,220,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <Button Content="." HorizontalAlignment="Left" Margin="255,245,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <Button Content="+" HorizontalAlignment="Left" Margin="290,245,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <Button Content="MC" HorizontalAlignment="Left" Margin="150,120,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <Button Content="MC" HorizontalAlignment="Left" Margin="150,145,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <Button Content="MC" HorizontalAlignment="Left" Margin="150,170,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <Button Content="MC" HorizontalAlignment="Left" Margin="150,195,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <Button Content="MC" HorizontalAlignment="Left" Margin="150,220,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <Button Content="MC" HorizontalAlignment="Left" Margin="150,245,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <Button Content="Mod" HorizontalAlignment="Left" Margin="115,120,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <Button Content=")" HorizontalAlignment="Left" Margin="115,145,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <Button Content="RoR" HorizontalAlignment="Left" Margin="115,170,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <Button Content="Xor" HorizontalAlignment="Left" Margin="115,195,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <Button Content="Rsh" HorizontalAlignment="Left" Margin="115,220,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <Button Content="And" HorizontalAlignment="Left" Margin="115,245,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <Button Content="(" HorizontalAlignment="Left" Margin="80,145,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <Button Content="RoL" HorizontalAlignment="Left" Margin="80,170,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <Button Content="Or" HorizontalAlignment="Left" Margin="80,195,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <Button Content="Lsh" HorizontalAlignment="Left" Margin="80,220,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <Button Content="Not" HorizontalAlignment="Left" Margin="80,245,0,0" VerticalAlignment="Top" Width="30" Height="20"/>
-        <ListBox HorizontalAlignment="Left" Height="70" Margin="10,120,0,0" VerticalAlignment="Top" Width="65">
-            <RadioButton Content="Hex" HorizontalAlignment="Left" Height="16" VerticalAlignment="Top" Width="55"/>
-            <RadioButton Content="Dec" HorizontalAlignment="Left" Height="16" VerticalAlignment="Top" Width="55"/>
-            <RadioButton Content="Oct" HorizontalAlignment="Left" Height="16" VerticalAlignment="Top" Width="55"/>
-            <RadioButton Content="Bin" HorizontalAlignment="Left" Height="16" VerticalAlignment="Top" Width="55"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2.5*"/>
+            <RowDefinition Height="2.5*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <ListBox HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Row="2" Grid.RowSpan="3">
+            <RadioButton Content="Hex" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <RadioButton Content="Dec" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <RadioButton Content="Oct" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <RadioButton Content="Bin" HorizontalAlignment="Left" VerticalAlignment="Center"/>
         </ListBox>
-        <ListBox HorizontalAlignment="Left" Height="70" Margin="10,195,0,0" VerticalAlignment="Top" Width="65">
-            <RadioButton Content="Qword" HorizontalAlignment="Left" Height="16" VerticalAlignment="Top" Width="55"/>
-            <RadioButton Content="Dword" HorizontalAlignment="Left" Height="16" VerticalAlignment="Top" Width="55"/>
-            <RadioButton Content="Word" HorizontalAlignment="Left" Height="16" VerticalAlignment="Top" Width="55"/>
-            <RadioButton Content="Byte" HorizontalAlignment="Left" Height="16" VerticalAlignment="Top" Width="55"/>
+        <ListBox HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Row="5" Grid.RowSpan="3">
+            <RadioButton Content="Qword" HorizontalAlignment="Left"  VerticalAlignment="Top"/>
+            <RadioButton Content="Dword" HorizontalAlignment="Left"  VerticalAlignment="Top"/>
+            <RadioButton Content="Word" HorizontalAlignment="Left"  VerticalAlignment="Top"/>
+            <RadioButton Content="Byte" HorizontalAlignment="Left"  VerticalAlignment="Top"/>
         </ListBox>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="50" Margin="10,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="345"/>
 
+        <Button Content="Mod" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="2" Grid.Row="2"/>
+        <Button Content="A" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="3" Grid.Row="2"/>
+        <Button Content="MC" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="4" Grid.Row="2"/>
+        <Button Content="MR" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="5" Grid.Row="2"/>
+        <Button Content="MS" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="6" Grid.Row="2"/>
+        <Button Content="M+" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="7" Grid.Row="2"/>
+        <Button Content="M-" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="8" Grid.Row="2"/>
+
+        <Button Content="(" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="1" Grid.Row="3"/>
+        <Button Content=")" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="2" Grid.Row="3"/>
+        <Button Content="B" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="3" Grid.Row="3"/>
+        <Button Content="[Arrow]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="4" Grid.Row="3"/>
+        <Button Content="CE" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="5" Grid.Row="3"/>
+        <Button Content="C" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="6" Grid.Row="3"/>
+        <Button Content="[+-]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="7" Grid.Row="3"/>
+        <Button Content="[sqrt]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="8" Grid.Row="3"/>
+
+        <Button Content="RoL" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="1" Grid.Row="4"/>
+        <Button Content="RoR" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="2" Grid.Row="4"/>
+        <Button Content="C" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="3" Grid.Row="4"/>
+        <Button Content="7" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="4" Grid.Row="4"/>
+        <Button Content="8" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="5" Grid.Row="4"/>
+        <Button Content="9" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="6" Grid.Row="4"/>
+        <Button Content="/" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="7" Grid.Row="4"/>
+        <Button Content="%" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="8" Grid.Row="4"/>
+
+        <Button Content="Or" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="1" Grid.Row="5"/>
+        <Button Content="Xor" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="2" Grid.Row="5"/>
+        <Button Content="D" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="3" Grid.Row="5"/>
+        <Button Content="4" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="4" Grid.Row="5"/>
+        <Button Content="5" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="5" Grid.Row="5"/>
+        <Button Content="6" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="6" Grid.Row="5"/>
+        <Button Content="*" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="7" Grid.Row="5"/>
+        <Button Content="1/X" HorizontalAlignment="Center" VerticalAlignment="Center"  Margin="1" Grid.Column="8" Grid.Row="5"/>
+
+        <Button Content="Lsh" HorizontalAlignment="Center" Margin="1" VerticalAlignment="Center" Grid.Column="1" Grid.Row="6"/>
+        <Button Content="Rsh" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="2" Grid.Row="6"/>
+        <Button Content="E" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="3" Grid.Row="6"/>
+        <Button Content="1" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="4" Grid.Row="6"/>
+        <Button Content="2" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="5" Grid.Row="6"/>
+        <Button Content="3" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="6" Grid.Row="6"/>
+        <Button Content="-" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="7" Grid.Row="6"/>
+        <Button Content="=" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="8" Grid.Row="6" Grid.RowSpan="2"/>
+
+        <Button Content="Not" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="1" Grid.Row="7"/>
+        <Button Content="And" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="2" Grid.Row="7"/>
+        <Button Content="F" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="3" Grid.Row="7"/>
+        <Button Content="0" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="4" Grid.ColumnSpan="2" Grid.Row="7"/>
+        <Button Content="." HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="6" Grid.Row="7"/>
+        <Button Content="+" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="7" Grid.Row="7"/>
     </Grid>
 </Window>
