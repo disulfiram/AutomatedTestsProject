@@ -24,68 +24,68 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <ListBox HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Row="2" Grid.RowSpan="3">
-            <RadioButton Content="Hex" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-            <RadioButton Content="Dec" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-            <RadioButton Content="Oct" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-            <RadioButton Content="Bin" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <ListBox Margin="1" Grid.Row="2" Grid.RowSpan="3">
+            <RadioButton Content="Hex"/>
+            <RadioButton Content="Dec"/>
+            <RadioButton Content="Oct"/>
+            <RadioButton Content="Bin"/>
         </ListBox>
-        <ListBox HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Row="5" Grid.RowSpan="3">
-            <RadioButton Content="Qword" HorizontalAlignment="Left"  VerticalAlignment="Top"/>
-            <RadioButton Content="Dword" HorizontalAlignment="Left"  VerticalAlignment="Top"/>
-            <RadioButton Content="Word" HorizontalAlignment="Left"  VerticalAlignment="Top"/>
-            <RadioButton Content="Byte" HorizontalAlignment="Left"  VerticalAlignment="Top"/>
+        <ListBox Margin="1" Grid.Row="5" Grid.RowSpan="3">
+            <RadioButton Content="Qword"/>
+            <RadioButton Content="Dword"/>
+            <RadioButton Content="Word"/>
+            <RadioButton Content="Byte"/>
         </ListBox>
 
-        <Button Content="Mod" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="2" Grid.Row="2"/>
-        <Button Content="A" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="3" Grid.Row="2"/>
-        <Button Content="MC" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="4" Grid.Row="2"/>
-        <Button Content="MR" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="5" Grid.Row="2"/>
-        <Button Content="MS" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="6" Grid.Row="2"/>
-        <Button Content="M+" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="7" Grid.Row="2"/>
-        <Button Content="M-" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="8" Grid.Row="2"/>
+        <Button Content="Mod" Margin="1" Grid.Column="2" Grid.Row="2"/>
+        <Button Content="A" Margin="1" Grid.Column="3" Grid.Row="2"/>
+        <Button Content="MC" Margin="1" Grid.Column="4" Grid.Row="2"/>
+        <Button Content="MR" Margin="1" Grid.Column="5" Grid.Row="2"/>
+        <Button Content="MS" Margin="1" Grid.Column="6" Grid.Row="2"/>
+        <Button Content="M+" Margin="1" Grid.Column="7" Grid.Row="2"/>
+        <Button Content="M-" Margin="1" Grid.Column="8" Grid.Row="2"/>
 
-        <Button Content="(" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="1" Grid.Row="3"/>
-        <Button Content=")" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="2" Grid.Row="3"/>
-        <Button Content="B" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="3" Grid.Row="3"/>
-        <Button Content="[Arrow]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="4" Grid.Row="3"/>
-        <Button Content="CE" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="5" Grid.Row="3"/>
-        <Button Content="C" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="6" Grid.Row="3"/>
-        <Button Content="[+-]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="7" Grid.Row="3"/>
-        <Button Content="[sqrt]" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="8" Grid.Row="3"/>
+        <Button Content="(" Margin="1" Grid.Column="1" Grid.Row="3"/>
+        <Button Content=")" Margin="1" Grid.Column="2" Grid.Row="3"/>
+        <Button Content="B" Margin="1" Grid.Column="3" Grid.Row="3"/>
+        <Button Content="[Arrow]" Margin="1" Grid.Column="4" Grid.Row="3"/>
+        <Button Content="CE" Margin="1" Grid.Column="5" Grid.Row="3"/>
+        <Button Content="C" Margin="1" Grid.Column="6" Grid.Row="3"/>
+        <Button Content="[+-]" Margin="1" Grid.Column="7" Grid.Row="3"/>
+        <Button Content="[sqrt]" Margin="1" Grid.Column="8" Grid.Row="3"/>
 
-        <Button Content="RoL" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="1" Grid.Row="4"/>
-        <Button Content="RoR" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="2" Grid.Row="4"/>
-        <Button Content="C" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="3" Grid.Row="4"/>
-        <Button Content="7" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="4" Grid.Row="4"/>
-        <Button Content="8" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="5" Grid.Row="4"/>
-        <Button Content="9" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="6" Grid.Row="4"/>
-        <Button Content="/" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="7" Grid.Row="4"/>
-        <Button Content="%" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="8" Grid.Row="4"/>
+        <Button Content="RoL" Margin="1" Grid.Column="1" Grid.Row="4"/>
+        <Button Content="RoR" Margin="1" Grid.Column="2" Grid.Row="4"/>
+        <Button Content="C" Margin="1" Grid.Column="3" Grid.Row="4"/>
+        <Button Content="7" Margin="1" Grid.Column="4" Grid.Row="4"/>
+        <Button Content="8" Margin="1" Grid.Column="5" Grid.Row="4"/>
+        <Button Content="9" Margin="1" Grid.Column="6" Grid.Row="4"/>
+        <Button Content="/" Margin="1" Grid.Column="7" Grid.Row="4"/>
+        <Button Content="%" Margin="1" Grid.Column="8" Grid.Row="4"/>
 
-        <Button Content="Or" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="1" Grid.Row="5"/>
-        <Button Content="Xor" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="2" Grid.Row="5"/>
-        <Button Content="D" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="3" Grid.Row="5"/>
-        <Button Content="4" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="4" Grid.Row="5"/>
-        <Button Content="5" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="5" Grid.Row="5"/>
-        <Button Content="6" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="6" Grid.Row="5"/>
-        <Button Content="*" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="7" Grid.Row="5"/>
-        <Button Content="1/X" HorizontalAlignment="Center" VerticalAlignment="Center"  Margin="1" Grid.Column="8" Grid.Row="5"/>
+        <Button Content="Or" Margin="1" Grid.Column="1" Grid.Row="5"/>
+        <Button Content="Xor" Margin="1" Grid.Column="2" Grid.Row="5"/>
+        <Button Content="D" Margin="1" Grid.Column="3" Grid.Row="5"/>
+        <Button Content="4" Margin="1" Grid.Column="4" Grid.Row="5"/>
+        <Button Content="5" Margin="1" Grid.Column="5" Grid.Row="5"/>
+        <Button Content="6" Margin="1" Grid.Column="6" Grid.Row="5"/>
+        <Button Content="*" Margin="1" Grid.Column="7" Grid.Row="5"/>
+        <Button Content="1/X" Margin="1" Grid.Column="8" Grid.Row="5"/>
 
-        <Button Content="Lsh" HorizontalAlignment="Center" Margin="1" VerticalAlignment="Center" Grid.Column="1" Grid.Row="6"/>
-        <Button Content="Rsh" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="2" Grid.Row="6"/>
-        <Button Content="E" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="3" Grid.Row="6"/>
-        <Button Content="1" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="4" Grid.Row="6"/>
-        <Button Content="2" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="5" Grid.Row="6"/>
-        <Button Content="3" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="6" Grid.Row="6"/>
-        <Button Content="-" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="7" Grid.Row="6"/>
-        <Button Content="=" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="8" Grid.Row="6" Grid.RowSpan="2"/>
+        <Button Content="Lsh" Margin="1" Grid.Column="1" Grid.Row="6"/>
+        <Button Content="Rsh" Margin="1" Grid.Column="2" Grid.Row="6"/>
+        <Button Content="E" Margin="1" Grid.Column="3" Grid.Row="6"/>
+        <Button Content="1" Margin="1" Grid.Column="4" Grid.Row="6"/>
+        <Button Content="2" Margin="1" Grid.Column="5" Grid.Row="6"/>
+        <Button Content="3" Margin="1" Grid.Column="6" Grid.Row="6"/>
+        <Button Content="-" Margin="1" Grid.Column="7" Grid.Row="6"/>
+        <Button Content="=" Margin="1" Grid.Column="8" Grid.Row="6" Grid.RowSpan="2"/>
 
-        <Button Content="Not" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="1" Grid.Row="7"/>
-        <Button Content="And" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="2" Grid.Row="7"/>
-        <Button Content="F" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="3" Grid.Row="7"/>
-        <Button Content="0" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="4" Grid.ColumnSpan="2" Grid.Row="7"/>
-        <Button Content="." HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="6" Grid.Row="7"/>
-        <Button Content="+" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1" Grid.Column="7" Grid.Row="7"/>
+        <Button Content="Not" Margin="1" Grid.Column="1" Grid.Row="7"/>
+        <Button Content="And" Margin="1" Grid.Column="2" Grid.Row="7"/>
+        <Button Content="F" Margin="1" Grid.Column="3" Grid.Row="7"/>
+        <Button Content="0" Margin="1" Grid.Column="4" Grid.ColumnSpan="2" Grid.Row="7"/>
+        <Button Content="." Margin="1" Grid.Column="6" Grid.Row="7"/>
+        <Button Content="+" Margin="1" Grid.Column="7" Grid.Row="7"/>
     </Grid>
 </Window>
